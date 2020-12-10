@@ -131,28 +131,12 @@ body {
   line-height: 1.6;
   font-weight: 200;
   font-family: 'Montserrat', sans-serif;
-  color: #222; }
-bodyWL {
-  font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
-  line-height: 1.6;
-  font-weight: 200;
-  font-family: 'Montserrat', sans-serif;
   color: #1D2948;
   background-color: #D4CA9D }
 
 /* FOOTER STYLES
 -------------------------------------------------- */
 .footer {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
-  background-color: #efefef;
-  text-align: center;
-}
-
-.footerWritLarge {
   position: fixed;
   right: 0;
   bottom: 0;
@@ -247,35 +231,6 @@ button.button-primary,
 input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
-  color: #FFF;
-  background-color: #33C3F0;
-  border-color: #33C3F0; }
-.button.button-primary:hover,
-button.button-primary:hover,
-input[type="submit"].button-primary:hover,
-input[type="reset"].button-primary:hover,
-input[type="button"].button-primary:hover,
-.button.button-primary:focus,
-button.button-primary:focus,
-input[type="submit"].button-primary:focus,
-input[type="reset"].button-primary:focus,
-input[type="button"].button-primary:focus {
-  color: #FFF;
-  background-color: #1EAEDB;
-  border-color: #1EAEDB; }
-.button.button-inline,
-button.button-inline,
-input[type="submit"].button-inline,
-input[type="reset"].button-inline,
-input[type="button"].button-inline {
-  padding: 0 10px;
-  height: 18px;
-  line-height: 18px; }
-.button.button-writlarge,
-button.button-writlarge,
-input[type="submit"].button-writlarge,
-input[type="reset"].button-writlarge,
-input[type="button"].button-writlarge {
   color: #ede9d7;
   background-color: #1D2948;
   border-color: #1D2948; }
@@ -412,6 +367,15 @@ th:last-child,
 td:last-child {
   padding-right: 0; }
 
+
+#events table, th, td {
+border: 0px;
+}
+
+#events th {
+font-size: 1.5em;
+vertical-align: text-top;
+}
 
 /* Spacing
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
